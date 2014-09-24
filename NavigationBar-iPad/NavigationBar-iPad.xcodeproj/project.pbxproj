@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9245B6C919D318FA00403CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6C819D318FA00403CAC /* Foundation.framework */; };
+		9245B6CB19D318FA00403CAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6CA19D318FA00403CAC /* CoreGraphics.framework */; };
+		9245B6CD19D318FA00403CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6CC19D318FA00403CAC /* UIKit.framework */; };
+		9245B6D319D318FA00403CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9245B6D119D318FA00403CAC /* InfoPlist.strings */; };
+		9245B6D519D318FA00403CAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9245B6D419D318FA00403CAC /* main.m */; };
+		9245B6D919D318FA00403CAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9245B6D819D318FA00403CAC /* AppDelegate.m */; };
+		9245B6DC19D318FA00403CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9245B6DA19D318FA00403CAC /* Main.storyboard */; };
+		9245B6DF19D318FA00403CAC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9245B6DE19D318FA00403CAC /* MasterViewController.m */; };
+		9245B6E219D318FA00403CAC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9245B6E119D318FA00403CAC /* DetailViewController.m */; };
+		9245B6E419D318FA00403CAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9245B6E319D318FA00403CAC /* Images.xcassets */; };
+		9245B6EB19D318FA00403CAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6EA19D318FA00403CAC /* XCTest.framework */; };
+		9245B6EC19D318FA00403CAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6C819D318FA00403CAC /* Foundation.framework */; };
+		9245B6ED19D318FA00403CAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9245B6CC19D318FA00403CAC /* UIKit.framework */; };
+		9245B6F519D318FA00403CAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9245B6F319D318FA00403CAC /* InfoPlist.strings */; };
+		9245B6F719D318FA00403CAC /* NavigationBar_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9245B6F619D318FA00403CAC /* NavigationBar_iPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9245B6EE19D318FA00403CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9245B6BD19D318FA00403CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9245B6C419D318FA00403CAC;
+			remoteInfo = "NavigationBar-iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9245B6C519D318FA00403CAC /* NavigationBar-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NavigationBar-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9245B6C819D318FA00403CAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9245B6CA19D318FA00403CAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9245B6CC19D318FA00403CAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9245B6D019D318FA00403CAC /* NavigationBar-iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationBar-iPad-Info.plist"; sourceTree = "<group>"; };
+		9245B6D219D318FA00403CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9245B6D419D318FA00403CAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9245B6D619D318FA00403CAC /* NavigationBar-iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationBar-iPad-Prefix.pch"; sourceTree = "<group>"; };
+		9245B6D719D318FA00403CAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9245B6D819D318FA00403CAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9245B6DB19D318FA00403CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9245B6DD19D318FA00403CAC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		9245B6DE19D318FA00403CAC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9245B6E019D318FA00403CAC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		9245B6E119D318FA00403CAC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9245B6E319D318FA00403CAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9245B6E919D318FA00403CAC /* NavigationBar-iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NavigationBar-iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9245B6EA19D318FA00403CAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9245B6F219D318FA00403CAC /* NavigationBar-iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationBar-iPadTests-Info.plist"; sourceTree = "<group>"; };
+		9245B6F419D318FA00403CAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9245B6F619D318FA00403CAC /* NavigationBar_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBar_iPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9245B6C219D318FA00403CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6CB19D318FA00403CAC /* CoreGraphics.framework in Frameworks */,
+				9245B6CD19D318FA00403CAC /* UIKit.framework in Frameworks */,
+				9245B6C919D318FA00403CAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9245B6E619D318FA00403CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6EB19D318FA00403CAC /* XCTest.framework in Frameworks */,
+				9245B6ED19D318FA00403CAC /* UIKit.framework in Frameworks */,
+				9245B6EC19D318FA00403CAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9245B6BC19D318FA00403CAC = {
+			isa = PBXGroup;
+			children = (
+				9245B6CE19D318FA00403CAC /* NavigationBar-iPad */,
+				9245B6F019D318FA00403CAC /* NavigationBar-iPadTests */,
+				9245B6C719D318FA00403CAC /* Frameworks */,
+				9245B6C619D318FA00403CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9245B6C619D318FA00403CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6C519D318FA00403CAC /* NavigationBar-iPad.app */,
+				9245B6E919D318FA00403CAC /* NavigationBar-iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9245B6C719D318FA00403CAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6C819D318FA00403CAC /* Foundation.framework */,
+				9245B6CA19D318FA00403CAC /* CoreGraphics.framework */,
+				9245B6CC19D318FA00403CAC /* UIKit.framework */,
+				9245B6EA19D318FA00403CAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9245B6CE19D318FA00403CAC /* NavigationBar-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6D719D318FA00403CAC /* AppDelegate.h */,
+				9245B6D819D318FA00403CAC /* AppDelegate.m */,
+				9245B6DA19D318FA00403CAC /* Main.storyboard */,
+				9245B6DD19D318FA00403CAC /* MasterViewController.h */,
+				9245B6DE19D318FA00403CAC /* MasterViewController.m */,
+				9245B6E019D318FA00403CAC /* DetailViewController.h */,
+				9245B6E119D318FA00403CAC /* DetailViewController.m */,
+				9245B6E319D318FA00403CAC /* Images.xcassets */,
+				9245B6CF19D318FA00403CAC /* Supporting Files */,
+			);
+			path = "NavigationBar-iPad";
+			sourceTree = "<group>";
+		};
+		9245B6CF19D318FA00403CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6D019D318FA00403CAC /* NavigationBar-iPad-Info.plist */,
+				9245B6D119D318FA00403CAC /* InfoPlist.strings */,
+				9245B6D419D318FA00403CAC /* main.m */,
+				9245B6D619D318FA00403CAC /* NavigationBar-iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9245B6F019D318FA00403CAC /* NavigationBar-iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6F619D318FA00403CAC /* NavigationBar_iPadTests.m */,
+				9245B6F119D318FA00403CAC /* Supporting Files */,
+			);
+			path = "NavigationBar-iPadTests";
+			sourceTree = "<group>";
+		};
+		9245B6F119D318FA00403CAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9245B6F219D318FA00403CAC /* NavigationBar-iPadTests-Info.plist */,
+				9245B6F319D318FA00403CAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9245B6C419D318FA00403CAC /* NavigationBar-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9245B6FA19D318FA00403CAC /* Build configuration list for PBXNativeTarget "NavigationBar-iPad" */;
+			buildPhases = (
+				9245B6C119D318FA00403CAC /* Sources */,
+				9245B6C219D318FA00403CAC /* Frameworks */,
+				9245B6C319D318FA00403CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NavigationBar-iPad";
+			productName = "NavigationBar-iPad";
+			productReference = 9245B6C519D318FA00403CAC /* NavigationBar-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9245B6E819D318FA00403CAC /* NavigationBar-iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9245B6FD19D318FA00403CAC /* Build configuration list for PBXNativeTarget "NavigationBar-iPadTests" */;
+			buildPhases = (
+				9245B6E519D318FA00403CAC /* Sources */,
+				9245B6E619D318FA00403CAC /* Frameworks */,
+				9245B6E719D318FA00403CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9245B6EF19D318FA00403CAC /* PBXTargetDependency */,
+			);
+			name = "NavigationBar-iPadTests";
+			productName = "NavigationBar-iPadTests";
+			productReference = 9245B6E919D318FA00403CAC /* NavigationBar-iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9245B6BD19D318FA00403CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "JUN LIU";
+				TargetAttributes = {
+					9245B6E819D318FA00403CAC = {
+						TestTargetID = 9245B6C419D318FA00403CAC;
+					};
+				};
+			};
+			buildConfigurationList = 9245B6C019D318FA00403CAC /* Build configuration list for PBXProject "NavigationBar-iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9245B6BC19D318FA00403CAC;
+			productRefGroup = 9245B6C619D318FA00403CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9245B6C419D318FA00403CAC /* NavigationBar-iPad */,
+				9245B6E819D318FA00403CAC /* NavigationBar-iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9245B6C319D318FA00403CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6E419D318FA00403CAC /* Images.xcassets in Resources */,
+				9245B6D319D318FA00403CAC /* InfoPlist.strings in Resources */,
+				9245B6DC19D318FA00403CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9245B6E719D318FA00403CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6F519D318FA00403CAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9245B6C119D318FA00403CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6D919D318FA00403CAC /* AppDelegate.m in Sources */,
+				9245B6DF19D318FA00403CAC /* MasterViewController.m in Sources */,
+				9245B6D519D318FA00403CAC /* main.m in Sources */,
+				9245B6E219D318FA00403CAC /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9245B6E519D318FA00403CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9245B6F719D318FA00403CAC /* NavigationBar_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9245B6EF19D318FA00403CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9245B6C419D318FA00403CAC /* NavigationBar-iPad */;
+			targetProxy = 9245B6EE19D318FA00403CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9245B6D119D318FA00403CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9245B6D219D318FA00403CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9245B6DA19D318FA00403CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9245B6DB19D318FA00403CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9245B6F319D318FA00403CAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9245B6F419D318FA00403CAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9245B6F819D318FA00403CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9245B6F919D318FA00403CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9245B6FB19D318FA00403CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBar-iPad/NavigationBar-iPad-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBar-iPad/NavigationBar-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9245B6FC19D318FA00403CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBar-iPad/NavigationBar-iPad-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBar-iPad/NavigationBar-iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9245B6FE19D318FA00403CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationBar-iPad.app/NavigationBar-iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBar-iPad/NavigationBar-iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NavigationBar-iPadTests/NavigationBar-iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9245B6FF19D318FA00403CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NavigationBar-iPad.app/NavigationBar-iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBar-iPad/NavigationBar-iPad-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBar-iPadTests/NavigationBar-iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9245B6C019D318FA00403CAC /* Build configuration list for PBXProject "NavigationBar-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9245B6F819D318FA00403CAC /* Debug */,
+				9245B6F919D318FA00403CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9245B6FA19D318FA00403CAC /* Build configuration list for PBXNativeTarget "NavigationBar-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9245B6FB19D318FA00403CAC /* Debug */,
+				9245B6FC19D318FA00403CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9245B6FD19D318FA00403CAC /* Build configuration list for PBXNativeTarget "NavigationBar-iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9245B6FE19D318FA00403CAC /* Debug */,
+				9245B6FF19D318FA00403CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9245B6BD19D318FA00403CAC /* Project object */;
+}
