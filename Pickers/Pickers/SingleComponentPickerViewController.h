@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface SingleComponentPickerViewController : UIViewController
+    <UIPickerViewDelegate,UIPickerViewDataSource>
+
+@property (strong, nonatomic) IBOutlet UIPickerView* singlePicker;
+@property (strong, nonatomic) NSArray* characterNames;
+
+- (IBAction)buttonPressed;
+
 
 @end

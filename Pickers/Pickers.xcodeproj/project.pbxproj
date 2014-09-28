@@ -43,6 +43,7 @@
 		92604D1919D82D07007D5354 /* doubleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92604D1419D82D07007D5354 /* doubleicon.png */; };
 		92604D1A19D82D07007D5354 /* singleicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92604D1519D82D07007D5354 /* singleicon.png */; };
 		92604D1B19D82D07007D5354 /* toolicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 92604D1619D82D07007D5354 /* toolicon.png */; };
+		92604D1D19D8725A007D5354 /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92604D1C19D8725A007D5354 /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		92604D1419D82D07007D5354 /* doubleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doubleicon.png; sourceTree = "<group>"; };
 		92604D1519D82D07007D5354 /* singleicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = singleicon.png; sourceTree = "<group>"; };
 		92604D1619D82D07007D5354 /* toolicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toolicon.png; sourceTree = "<group>"; };
+		92604D1C19D8725A007D5354 /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 		92604CBC19D825B2007D5354 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92604D1C19D8725A007D5354 /* statedictionary.plist */,
 				92604CBD19D825B2007D5354 /* Pickers-Info.plist */,
 				92604CBE19D825B2007D5354 /* InfoPlist.strings */,
 				92604CC119D825B2007D5354 /* main.m */,
@@ -338,6 +341,7 @@
 				92604D1719D82D07007D5354 /* clockicon.png in Resources */,
 				92604D0619D82CCD007D5354 /* apple.png in Resources */,
 				92604D0B19D82CCD007D5354 /* seven.png in Resources */,
+				92604D1D19D8725A007D5354 /* statedictionary.plist in Resources */,
 				92604D1A19D82D07007D5354 /* singleicon.png in Resources */,
 				92604CF719D828A8007D5354 /* DependentPickerViewController.xib in Resources */,
 				92604D0A19D82CCD007D5354 /* lemon.png in Resources */,
@@ -570,6 +574,7 @@
 				92604CE019D825B2007D5354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92604CE119D825B2007D5354 /* Build configuration list for PBXNativeTarget "PickersTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +583,7 @@
 				92604CE319D825B2007D5354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

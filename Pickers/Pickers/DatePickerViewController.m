@@ -33,6 +33,19 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    NSDate* now = [NSDate date];
+    [self.datePicker setDate:now animated:NO];
 }
 
+- (IBAction)buttonPressed:(UIButton *)sender {
+    NSDate* selected = [self.datePicker date];
+    NSString* msg = [[NSString alloc] initWithFormat:@"The date and time you selected is:%@", selected];
+    UIAlertView* alertView = [[UIAlertView alloc]
+                              initWithTitle:@"Date and Time Selected"
+                              message:msg
+                              delegate:nil
+                              cancelButtonTitle:@"Yes,I did"
+                              otherButtonTitles:nil];
+    [alertView show];
+}
 @end

@@ -17,13 +17,13 @@
             <nil key="simulatedBottomBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <tabBar key="tabBar" contentMode="scaleToFill" selectedItem="O8u-KA-GVP" id="ONK-Ka-YIh">
+            <tabBar key="tabBar" contentMode="scaleToFill" id="ONK-Ka-YIh">
                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </tabBar>
             <viewControllers>
-                <viewController nibName="DatePickerViewController" id="fWv-NS-2S6">
+                <viewController nibName="DatePickerViewController" id="fWv-NS-2S6" customClass="DatePickerViewController">
                     <tabBarItem key="tabBarItem" title="Date" image="clockicon.png" id="WUv-w4-9z4"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -31,7 +31,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
-                <viewController nibName="SingleComponentPickerViewController" id="XQv-T6-N87">
+                <viewController nibName="SingleComponentPickerViewController" id="XQv-T6-N87" customClass="SingleComponentPickerViewController">
                     <tabBarItem key="tabBarItem" title="Single" image="singleicon.png" id="czy-qA-BaL"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -39,7 +39,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
-                <viewController nibName="DoubleComponentPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="bXl-ai-z1h">
+                <viewController nibName="DoubleComponentPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="bXl-ai-z1h" customClass="DoubleComponentPickerViewController">
                     <tabBarItem key="tabBarItem" title="Double" image="doubleicon.png" id="yDc-yY-UPc"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -48,7 +48,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
-                <viewController nibName="DependentPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="1sb-rD-ljZ">
+                <viewController nibName="DependentPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="1sb-rD-ljZ" customClass="DependentPickerViewController">
                     <tabBarItem key="tabBarItem" title="Dependent" image="dependenticon.png" id="O8u-KA-GVP"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
@@ -57,7 +57,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <nil key="simulatedDestinationMetrics"/>
                 </viewController>
-                <viewController nibName="CustomPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="I8c-CK-Rqe">
+                <viewController nibName="CustomPickerViewController" automaticallyAdjustsScrollViewInsets="NO" id="I8c-CK-Rqe" customClass="CustomPickerViewController">
                     <tabBarItem key="tabBarItem" title="Custom" image="toolicon.png" id="hm2-y2-d2N"/>
                     <toolbarItems/>
                     <nil key="simulatedStatusBarMetrics"/>
