@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+//@class LoadingViewController;
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//@property (strong, nonatomic) LoadingViewController* loadingViewController;
+@property (strong, nonatomic) UITabBarController* mainTabBarController;
+
+- (void) loadRootView;
 
 @end
